@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.sidebar {
+    background-image: linear-gradient(to bottom right,rgb(88, 209, 88), rgb(19, 88, 19));
+    width: 30%;
+    height: 100vh;
+}
+.mountain {
+    max-height: 30vh;
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.content {
+    padding-top: 10%;
+    display: block;
+}
+h1 {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20%;
+}
+.number {
+    display: block;
+}
+p {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 1px;
+    border-radius: 30%;
+    display: inline;
+    justify-content: center;
+}
+p2 {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+p3 {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+#count {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    column-gap: 10px;
+}
+.btn-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#simBtn {
+    color: rgb(2, 83, 21);
+    background-color: rgb(140, 241, 180);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-radius: 15px;
+    font-size: 18px;
+    border: none;
+}
+#naoBtn {
+    color: rgb(2, 83, 21);
+    background-color: rgb(140, 241, 180);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-radius: 15px;
+    font-size: 18px;
+    border: none;
+    padding-bottom: 10px;
+}
+
+#simBtn:hover {
+    color: lightgreen;
+    background-color:darkgreen;
+    transition: 0.2s;
+}
+
+#naoBtn:hover {
+    color: lightgreen;
+    background-color:darkgreen;
+    transition: 0.2s;
+}
+
+#simBtn:disabled {
+    color: gray;
+    background-color: rgb(61, 84, 56);
+    cursor: not-allowed;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+#naoBtn:disabled {
+    color: gray;
+    background-color: rgb(61, 84, 56);
+    cursor: not-allowed;
+    opacity: 0.4;
+    transition: 0.5s;
+}
